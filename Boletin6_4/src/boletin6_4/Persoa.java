@@ -17,19 +17,23 @@ public class Persoa {
         nombre1 = ler.nextLine();
         System.out.println("Introduce el peso de la primera persona :");
         peso1 = ler.nextInt();
+        
+        
+    }
+    public void lectura2(){
+        Scanner ler= new Scanner(System.in);
         System.out.println("Introduce segundo nombre :");
         nombre2 = ler.nextLine();
         System.out.println("Introduce el peso de la segunda persona :");
         peso2 = ler.nextInt();
-        
     }
     
     public void condicionales(){
         if(peso1 < peso2){
-            System.out.println(nombre2 +"Pesa más");
+            System.out.println(nombre2 +" Pesa más");
         }
         else{
-            System.out.println(nombre1 +"Pesa más");
+            System.out.println(nombre1 +" Pesa más");
         } 
         if(peso1==peso2)
             System.out.println(nombre1+" y "+nombre2+" pesan lo mismo");
